@@ -1,0 +1,12 @@
+
+{
+  "xp_formula": {
+    "base": 40,
+    "exponent": 2.2,
+    "offset": 60
+  },
+  "classes": {
+    "Krieger": { "base_stats": { "hp": 12, "atk": 12, "def": 10, "spd": 8 } },
+    "Magier": { "base_stats": { "hp": 5, "atk": 5, "def": 6, "spd": 9 } }
+  }
+}

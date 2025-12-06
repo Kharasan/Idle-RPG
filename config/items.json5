@@ -1,0 +1,20 @@
+
+{
+  "potion_heal_small": {
+    "name": "Kleiner Heiltrank",
+    "type": "Consumable",
+    "icon_id": "potion_red",
+    "effect": { "type": "heal", "amount": 50 },
+    "value_gold": 5,
+    "max_stack": 20
+  },
+  "iron_sword": {
+    "name": "Eisenschwert",
+    "type": "Equipment",
+    "icon_id": "sword_1h",
+    "slot": "WEAPON",
+    "stats_bonus": { "atk": 5 },
+    "value_gold": 25,
+    "max_stack": 1
+  }
+}

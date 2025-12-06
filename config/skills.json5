@@ -1,0 +1,39 @@
+
+{
+  "basic_attack": {
+    "name": "Basis-Angriff",
+    "costs": { "type": "Stamina", "amount": 0 },
+    "effekte": [
+      { "type": "damage", "multiplier": "self.atk * 1.0", "damage_type": "Physical" }
+    ]
+  },
+  "skill_fireball": {
+    "name": "Feuerball",
+    "costs": { "type": "Mana", "amount": 10 },
+    "effekte": [
+      { "type": "damage", "amount": 20, "damage_type": "Fire" },
+      { "type": "apply_effect", "effect_id": "burn", "duration": 3, "chance": 0.8 }
+    ]
+  },
+  "heavy_smash": {
+    "name": "Schwerer Schlag",
+    "costs": { "type": "Stamina", "amount": 10 },
+    "effekte": [
+      { "type": "damage", "multiplier": "self.atk * 1.5", "damage_type": "Physical" }
+    ]
+  },
+  "skill_heavy_smash": {
+    "name": "Schwerer Schlag (Legacy)",
+    "costs": { "type": "Stamina", "amount": 10 },
+    "effekte": [
+      { "type": "damage", "multiplier": "self.atk * 1.5", "damage_type": "Physical" }
+    ]
+  },
+  "skill_heal_light": {
+    "name": "Leichte Heilung",
+    "costs": { "type": "Mana", "amount": 15 },
+    "effekte": [
+      { "type": "heal", "amount": 40 }
+    ]
+  }
+}

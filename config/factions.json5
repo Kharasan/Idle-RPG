@@ -1,9 +1,0 @@
-
-{
-  "factions": {
-    "city_guard": { "name": "Stadtwache", "enemies": ["bandits", "goblins", "orcs"] },
-    "goblins": { "name": "Goblin-Stamm", "enemies": ["city_guard", "player"] },
-    "orcs": { "name": "Ork-Clan", "enemies": ["city_guard", "player"] }
-  },
-  "default_reputation": 0
-}
